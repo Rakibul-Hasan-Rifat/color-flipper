@@ -6,6 +6,7 @@ document.querySelector('button').addEventListener('click', () => {
 })
 
 const randomNumberGenerator = () => Math.floor(Math.random() * 256);
+
 const rgbColorGenerator = () => {
     let numbers = [];
     for (let i = 0; i < 3; i++) {

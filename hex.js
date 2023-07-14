@@ -2,9 +2,9 @@ const colorCodeLetters = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E',
 
 document.querySelector('button').addEventListener('click', () => {
     const mainTag = document.querySelector('main');
-    let randomColorCode = `#${colorFinderLoop()}`;
-    mainTag.style.backgroundColor = randomColorCode;
-    document.querySelector('main h1 span').innerText = randomColorCode;
+    let randomHexColorCode = `#${colorFinderLoop()}`;
+    mainTag.style.backgroundColor = randomHexColorCode;
+    document.querySelector('main h1 span').innerText = randomHexColorCode;
 })
 
 const colorFinderLoop = () => {
